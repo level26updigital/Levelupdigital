@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level Up Digital - Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="navbar">
+    <div class="logo-container">
+      <img src="logoup.jpeg" alt="Level Up Digital Logo" class="nav-logo level-logo">
+      <img src="logosena.png" alt="SENA Logo" class="nav-logo sena-logo">
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html" class="nav-item active">Inicio</a>
+      <a href="proposito.html" class="nav-item">Nuestro Propósito</a>
+      <a href="quienes-somos.html" class="nav-item">¿Quiénes somos?</a>
+    </nav>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main class="main-container">
+    
+    <!-- COLUMNA IZQUIERDA -->
+    <div class="left-content">
+      
+      <!-- Titulo e identificador -->
+      <h1 class="main-title">
+        <span class="text-top">LEVEL UP</span>
+        <span class="text-bottom">DIGITAL</span>
+      </h1>
+      
+      <p class="neon-slogan">EL JUEGO QUE TE ATRAPARÁ Y TE EDUCARÁ 🎮🕹</p>
+
+      <!-- Bloque de texto estilo cita con borde cyan -->
+      <div class="description-card">
+        <p class="quote-text">
+          <strong>"Level Up Digital"</strong> es un juego de trivia interactivo diseñado para los estudiantes, mediante un juego de trivia para saber el impacto real de las pantallas en su vida diaria, y su conocimiento sobre el uso excesivo del celular sobre todo en jornadas escolares.
+        </p>
+        <p class="quote-text">
+          El objetivo principal no es prohibir los teléfonos ni regañar a nadie, sino aprender jugando a controlar nuestro tiempo en pantalla para concentrarnos mejor en clase, y entender las consecuencias que trae si no controlamos el uso del celular. Tanto social, de personalidad, y nivel académico.
+        </p>
+      </div>
+
+      <!-- Iconos caracteristicos -->
+      <div class="features-container">
+        <div class="feature-item">
+          <i data-lucide="gamepad-2" class="f-icon cyan"></i>
+          <span>JUEGA</span>
+        </div>
+        <div class="feature-divider"></div>
+        <div class="feature-item">
+          <i data-lucide="zap" class="f-icon green"></i>
+          <span>APRENDE</span>
+        </div>
+        <div class="feature-divider"></div>
+        <div class="feature-item">
+          <i data-lucide="trending-up" class="f-icon purple"></i>
+          <span>AVANZA</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- COLUMNA DERECHA -->
+    <div class="right-content">
+      <div class="main-card">
+        
+        <!-- Banner de video interactivo -->
+        <div class="banner-container">
+          <video class="banner-video" autoplay loop muted playsinline>
+            <source src="videolevel.mp4" type="video/mp4">
+            Tu navegador no soporta el reproductor de video.
+          </video>
+        </div>
+
+        <!-- Contenido de la tarjeta de inicio -->
+        <div class="card-content">
+          <span class="green-tag">NUEVA PARTIDA</span>
+          
+          <h2 class="card-main-title">Tu ruta de aprendizaje empieza aquí.</h2>
+          
+          <p class="sub-text">
+            Ingresa tu usuario y activa una experiencia de progreso, tecnología y cultura digital.
+          </p>
+
+          <!-- Formulario interactivo -->
+          <form id="play-form">
+            <label for="username">Nombre de jugador</label>
+            <div class="input-container">
+              <i data-lucide="user" class="input-icon"></i>
+              <input type="text" id="username" placeholder="Ej. AngelDev" required autocomplete="off">
+            </div>
+            
+            <button type="submit" class="btn-juega" id="btn-start">
+              <i data-lucide="gamepad-2"></i> JUEGA YA &rarr;
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= FOOTER INSTITUCIONAL ================= -->
+  <footer class="footer-institucional">
+    <div class="footer-container">
+      
+      <div class="footer-col">
+        <h3 class="footer-title">LEVEL UP DIGITAL</h3>
+        <p class="footer-desc">
+          Proyecto educativo de concienciación sobre el uso responsable de dispositivos móviles en la jornada escolar.
+        </p>
+        <span class="footer-tag">SENA & IE General Santander</span>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-subtitle">Institución</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="https://www.iecolgesan.edu.co/" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="external-link"></i> Colegio General Santander
+            </a>
+          </li>
+          <li>
+            <a href="https://www.sena.edu.co" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="external-link"></i> Portal SENA
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-subtitle">Contacto</h4>
+        <p class="footer-info">
+          <i data-lucide="mail"></i> levelupdigital2026@gmail.com
+        </p>
+        <p class="footer-info">
+          <i data-lucide="phone"></i> +57 3112822194
+        </p>
+        <p class="footer-info">
+          <i data-lucide="map-pin"></i> Sede Principal - Colegio General Santander
+        </p>
+      </div>
+
+<div class="footer-col">
+        <h4 class="footer-subtitle">Síguenos</h4>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/level_up_digital_26?stkn=dWtoaXloY3Y1dXBz" target="_blank" rel="noopener noreferrer" class="social-icon-img" title="Instagram">
+            <img src="logoInsta.png" alt="Instagram" class="custom-social-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i data-lucide="instagram" class="fallback-icon" style="display:none;"></i>
+          </a>
+          <a href="https://youtube.com/@levelupdigital-t8u?si=cmgoFEJwib_fHDdm" target="_blank" rel="noopener noreferrer" class="social-icon-img" title="YouTube">
+            <img src="logoyoutube.png" alt="YouTube" class="custom-social-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <i data-lucide="youtube" class="fallback-icon" style="display:none;"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Level Up Digital. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
